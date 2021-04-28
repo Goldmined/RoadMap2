@@ -2,6 +2,7 @@ const express = require('express'); //функция, после вызова п
 const app = express(); //один экземляр приложения
 const PORT = 3001;// порт
 const User = require("./model/User")
+app.use(express.static('public'));
 
 app.get('/users', (req, res) => { //если поступит запрос на адрес "/", то мы вернем строчку 'Server Index Page'
   res.json({

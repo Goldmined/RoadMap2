@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.users {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.user {
+    border: 22px solid purple;
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 16px;
+    width: 23%;
+    margin-top: 16px;
+}
